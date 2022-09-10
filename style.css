@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+
+/* container1 */
+.menuBar ul{
+    list-style: none;
+}
+.container1 button{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: #17a2b8;;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.menubar-left h1{
+    color: #17a2b8;
+}
+.menuBar a{
+    position: relative;
+    text-decoration: none;
+    color: #17a2b8;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.menuBar a:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -20px;
+    transition: 0.3s;
+
+}
+.menuBar a:hover:after{
+    width: 100%;
+}
+/* container1 */
+
+
+/* Container2 */
+.container2{
+    background-color: #17a2b8;
+    /* width: 99%; */
+    height: 90vh;
+    padding-top: 2rem;
+}
+.container2-left h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.container2-left p{
+    color:black;
+    font-weight: bold;
+}
+.container2-left button{
+    border-radius: 3rem;
+    background-color: white;
+    padding: 0.5rem;
+    border: none;
+    width: 150px;
+    font-weight: bold;
+}
+ .container2-left{
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+.container2-right img{
+    margin-right: 5rem;
+}
+/* Container2 */
+
+
+/* container3*/
+.container3{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.container3-top h3{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+.top{
+    background-color: #17a2b8;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9rem;
+    margin-top: 0.5rem;
+}
+.bottom{
+   box-sizing: border-box;
+   border-style: outset;
+   padding: 1rem;
+   padding-top: 2rem;
+   width: 300px;
+   
+}
+.bottom p{
+    color: black;
+}
+.card1{
+    margin-top: 2rem;
+    /* background-color: aquamarine; */
+    width: 350px;
+    height: 250px;
+}
+
+
+/* container3 */
+
+
+/* container4 */
+.container4{
+    background-color:  #17a3b80a;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.icon111{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border-style: solid;
+    border-color: #17a2b8;
+}
+.icon111 span{
+    color: #17a2b8;
+}
+.container4-left{
+    padding-left: 6rem;
+}
+.container4-left h6{
+    font-weight: bold;
+}
+.container4-left-right h6{
+    font-weight: bold;
+}
+.container4-left p{
+    color: rgba(128, 128, 128, 0.651);
+}
+/* container4 */
+
+/* conatainer5 */
+ .conatainer5{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: #17a2b8;
+} 
+/* .conatainer5-right{
+    background-color: #17a2b8;
+} */
+.conatainer5-right h1{
+    color: white;
+    margin-top: 2rem;
+    font-weight: bold;
+
+}
+.form-div #msg{
+    margin-top: 2rem;
+    /* border: none; */
+    width: 500px;
+}
+.form-div .name , .email {
+    width: 250px;
+    margin-top: 2rem;
+}
+.form-div .mob_no , .date {
+    width: 250px;
+    margin-top: 1rem;
+}
+.form-div #Department , #Doctor{
+    width: 250px;
+    margin-top: 1rem;
+}
+.form-div button{
+    border-radius: 2rem;
+    background-color: white;
+    color: #17a2b8;
+    border: none; 
+    margin-top: 2rem;
+    padding: 0.5rem;
+    width: 100px;
+    font-weight: bold;
+}
+/* conatainer5 */
+
+
+/* container6 */
+.container6{
+    background-color: #17a2b8;
+    padding-top: 3rem;
+    /* margin-bottom: 5rem; */
+}
+.container6-top{
+    margin-bottom: 2rem;
+}
+.container6-top h2{
+    color: white;
+    font-weight: bold;
+}
+.container6-top h6{
+    color: white;
+    font-weight: bold;
+    
+}
+.search button{
+    padding: o.5rem;
+    border-radius: 1rem;
+    background-color: #17a2b8;
+    border: none;
+    font-weight: bold;
+}
+.search{
+    background-color:white;
+    width: 350px;
+    height: 40px;
+    border-radius: 2rem;
+    padding: 0.2rem;
+    
+}
+#search1{
+    border: none;
+    margin-left: 0.5rem;
+    border-radius: 1rem;
+    
+}
+.icon{
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #17a2b8;
+}
+.last-card1 {
+    padding-left: 5rem;
+}
+.last-card3{
+    padding-right: 5rem;
+}
+.last-card1 h1, p{
+    color: white;
+    font-weight: bold;
+}
+.last-card2 h5,a{
+    color: white;
+}
+.last-card2 a{
+    text-decoration: none;
+}
+.last-card3 h5 {
+    color: white;
+    
+}
+.last-card31{
+    color: white;
+} 
+/* container6 */
